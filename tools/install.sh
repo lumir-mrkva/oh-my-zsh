@@ -50,7 +50,7 @@ hash git >/dev/null 2>&1 || {
   echo "Error: git is not installed"
   exit 1
 }
-env git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git $ZSH || {
+env git clone --depth=1 https://github.com/lumir-mrkva/oh-my-zsh.git $ZSH || {
   printf "Error: git clone of oh-my-zsh repo failed\n"
   exit 1
 }
